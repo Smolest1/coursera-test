@@ -48,6 +48,11 @@ div span{
 	.box{
 		width: 31%;
 	}
+	div{
+	display: flex;
+	justify-content: space-between;
+	}
+
 }
 
 @media(max-width: 991px) and (min-width: 768px){
@@ -58,10 +63,16 @@ div span{
 		display: block;
 		width: 98%;
 	}
+	div{
+		display: block;
+	}
 }
 
 @media(max-width: 767px){
 	.box{
 		width: 98%;
+	}
+	div{
+		display: block;
 	}
 }
